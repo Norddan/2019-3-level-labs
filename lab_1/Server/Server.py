@@ -26,4 +26,4 @@ def refresh(cmd=None):
 
 
 if __name__ == '__main__':
-    app.run(host='https://stopgame-news-parcer.herokuapp.com/')
+    app.run(host='https://stopgame-news-parcer.herokuapp.com/', port=33507)
