@@ -1,2 +1,2 @@
-web python Server.py
+web: gunicorn Server.py
 heroku ps:scale web=1
