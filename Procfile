@@ -1,2 +1,2 @@
-web: gunicorn Server.py
-heroku ps:scale web=1
+web: python Server.py -runserver 0:5000
+web: gunicorn -chdir lab_2 Server.app
