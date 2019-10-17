@@ -7,6 +7,7 @@ from flask import Flask, render_template, send_from_directory, redirect, url_for
 
 app = Flask(__name__)
 
+@app.route('/')
 @app.route('/index')
 def server_run():
     url3 = "https://stopgame.ru/news"
